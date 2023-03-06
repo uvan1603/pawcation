@@ -1,0 +1,31 @@
+{
+  "userData": [
+    {
+      "Fname": "Uvan",
+      "Lname": "N",
+      "email": "123@gmail.com",
+      "password": "12312",
+      "phoneNum": "1234",
+      "selectedOptions": "Dog,Cat",
+      "id": 2
+    },
+    {
+      "Fname": "Srikanth",
+      "Lname": "S",
+      "email": "srikanth",
+      "password": ";oubibv",
+      "phoneNum": "liblib",
+      "selectedOptions": "Dog",
+      "id": 3
+    },
+    {
+      "Fname": "Uvan",
+      "Lname": "Narayanan",
+      "email": "uvan@gmail.cim",
+      "password": "uhawoe1",
+      "phoneNum": "kjbkbik",
+      "selectedOptions": "Dog",
+      "id": 4
+    }
+  ]
+}
