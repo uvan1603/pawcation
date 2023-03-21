@@ -1,0 +1,87 @@
+{
+  "userData": [
+    {
+      "Fname": "Uvan",
+      "Lname": "N",
+      "email": "123@gmail.com",
+      "password": "12312",
+      "phoneNum": "1234",
+      "selectedOptions": "Dog,Cat",
+      "id": 2
+    },
+    {
+      "Fname": "Srikanth",
+      "Lname": "S",
+      "email": "srikanth",
+      "password": ";oubibv",
+      "phoneNum": "liblib",
+      "selectedOptions": "Dog",
+      "id": 3
+    },
+    {
+      "Fname": "Uvan",
+      "Lname": "Narayanan",
+      "email": "uvan@gmail.cim",
+      "password": "uhawoe1",
+      "phoneNum": "kjbkbik",
+      "selectedOptions": "Dog",
+      "id": 4
+    },
+    {
+      "username": "Uvan",
+      "email": "uvannarayanan1603@gmail.com",
+      "password": "hemauvan@9",
+      "confirmpassword": "hemauvan@9",
+      "id": 5
+    },
+    {
+      "username": "Shashank",
+      "email": "shansha@gmail.com",
+      "password": "shashank@123",
+      "confirmpassword": "shashank@123",
+      "id": 6
+    },
+    {
+      "username": "Gowtham",
+      "email": "gowtham1310@gmail.com",
+      "password": "Gowtham1511@",
+      "confirmpassword": "Gowtham1511@",
+      "id": 7
+    },
+    {
+      "username": "Uvan123",
+      "email": "uvan@gmail.com",
+      "password": "Uvan@123",
+      "confirmpassword": "Uvan@123",
+      "id": 8
+    },
+    {
+      "username": "Uvan123",
+      "email": "uvan@gmail.com",
+      "password": "Uvan@123",
+      "confirmpassword": "Uvan@123",
+      "id": 9
+    },
+    {
+      "username": "Harrypotter",
+      "email": "harrypotter@gmail.com",
+      "password": "harrypotter@123",
+      "confirmpassword": "harrypotter@123",
+      "id": 10
+    },
+    {
+      "username": "Batman",
+      "email": "batman@gmail.com",
+      "password": "batman@123",
+      "confirmpassword": "batman@123",
+      "id": 11
+    },
+    {
+      "username": "Kingsley",
+      "email": "king@gmail.com",
+      "password": "king@123",
+      "confirmpassword": "king@123",
+      "id": 12
+    }
+  ]
+}

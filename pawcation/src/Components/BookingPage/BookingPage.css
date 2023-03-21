@@ -1,0 +1,193 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  text-align: left;
+  width: 100%;
+  max-width: 30rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.form-input {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  width: 100%;
+}
+
+.form-input:focus {
+  outline: none;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.form-textarea {
+  height: 6rem;
+  resize: vertical;
+  width: 100%;
+}
+
+.form-date-picker {
+  width: 100%;
+  max-width: 30rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.DateInput {
+  display: inline-block;
+  width: 50%;
+}
+
+.DateInput_input {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  width: 100%;
+}
+
+.DateInput_input:focus {
+  outline: none;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.form-submit-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 1rem;
+}
+
+.form-submit-button:hover {
+  background-color: #3e8e41;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.checkbox-input {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #0073b1;
+  border-radius: 4px;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  margin-right: 5px;
+}
+
+.checkbox-input:checked {
+  background-color: #0073b1;
+}
+
+.checkbox-input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.checkbox-input:focus {
+  border-color: #0073b1;
+  box-shadow: 0 0 2px #0073b1;
+}
+
+.select-pet-type {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+.select-pet-type:hover {
+  border-color: #999;
+}
+
+.select-pet-type:focus {
+  border-color: #00bcd4;
+  box-shadow: 0 0 0 2px rgba(0, 188, 212, 0.5);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+/* Change the appearance of the calendar icon */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: #999;
+}
+
+/* Change the color of the selected date */
+input[type="date"]::-webkit-calendar-picker-indicator:focus {
+  background-color: #fff;
+}
+
+/* Remove the default border on Firefox */
+input[type="date"]:required:invalid::-moz-focus-inner {
+  border: none;
+}
+
+/* Style the placeholder text */
+input[type="date"]::-webkit-input-placeholder {
+  color: #999;
+}
+
+input[type="date"]::-moz-placeholder {
+  color: #999;
+}
+
+input[type="date"]:-ms-input-placeholder {
+  color: #999;
+}
+
+input[type="date"]:-moz-placeholder {
+  color: #999;
+}
